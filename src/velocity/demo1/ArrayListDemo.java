@@ -10,8 +10,6 @@ public static void main(String[] args) {
 	al.add("Mohan");
 	al.add("Vinod");
 	
-	for(String s:al) {
-		System.out.println(s);
-	}
+	al.stream().forEach(x->System.out.println(x));
 }
 }
