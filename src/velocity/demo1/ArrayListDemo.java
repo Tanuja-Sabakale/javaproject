@@ -10,6 +10,8 @@ public static void main(String[] args) {
 	al.add("Mohan");
 	al.add("Vinod");
 	
-	System.out.println(al);
+	for(String s:al) {
+		System.out.println(s);
+	}
 }
 }
